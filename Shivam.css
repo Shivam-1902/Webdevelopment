@@ -3,5 +3,13 @@ h1{
     color: blue;
 }
 p.intro{
-    color: cornflowerblue;
+    color: hotpink
+    }
+ol.Selectors{
+    color: blue;
+    border: 2cm;
 }
+h3.Selectors{
+    color: purple;
+}
+
