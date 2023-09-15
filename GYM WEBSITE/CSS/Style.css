@@ -1,0 +1,53 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('../img/Image2.jpg');
+    background-repeat: no-repeat;  
+    background-size: cover;  
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    background-color: black;
+    display: inline-block;
+    border: 2px solid green;
+}
+
+.mid {
+    display: flexbox;
+    width: 37%;
+    margin: 20px auto;
+    border: 2px solid rgb(184, 79, 184);
+}
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    background-color: black;
+    display: inline-block;
+    border: 2px solid green;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: rgb(190, 217, 226);
+    text-decoration: none;
+    padding: 34px 24px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(214, 238, 244);
+}
+.left img{
+    width: 23px;
+}
+
+
