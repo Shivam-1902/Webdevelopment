@@ -17,20 +17,53 @@
         <!-- Left box for logo -->
         <div class="left">
           <img src="img/logo.jpeg" alt="">
+         <div class="logo">Shivam Fitness</div> 
         </div>
         <!-- mid box for navbar -->
         <div class="mid">
             <ul  class="navbar">
                 <li><a href="#" class = "active">Home</a></li>
-                <li><a href="#">About Us </a></li>
-                <li><a href="#">Fitness Calculator</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Fitness Journey</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">About Us</a></li>
             </ul>
         </div>
         <!-- right box for buttons -->
         <div class="right">
-            I am right
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
         </div>
     </header>
+    <div class="container">
+        <h1>Join the Best Gym in Vancouver Now!</h1>
+        <form action="../Firstcode.php">
+            <div class="form-group">
+                <label for="myname">Name:</label><input type="text" name="name" id="myname" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <label for="myage">Age:</label><input type="number" name="age" id="myage" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <label for="mygender"></label>Gender: Male:<input type="radio" name="gender" id="mygender">Female:<input type="radio" name="gender" id="mygender">Others:<input type="radio" name="gender" id="mygender">
+            </div>
+            <div class="form-group">
+                <label for="myphone">Phone:</label><input type="number" name="phone" id="myphone" placeholder="Enter your Contact Number">
+            </div>
+            <div class="form-group">
+                <label for="myemail">Email: </label><input type="email" name="email" id="myemail" placeholder="Enter your Email-ID">
+            </div>
+            <div class="form-group">
+                <label for="mycity">City:</label><input type="text" name="city" id="mycity" placeholder="Enter Your City">
+            </div>
+            <div class="form-group">
+                <label for="myprovince">Province:</label><input type="text" name="province" id="myprovince" placeholder="Enter your Province">
+            </div>
+            
+            <div class="form-group">
+                <label for="mypincode">Pincode:</label><input type="text" name="pincode" id="mypincode" placeholder="Enter your Pincode">
+            </div>            
+            <button class="btn" id="btn">SUBMIT</button>
+         </form>
+    </div>
 </body>
 </html>
