@@ -1,34 +1,40 @@
-
-ul{
+ul {
     color: white;
 }
-h1{
+
+h1 {
     border: 10px solid;
     color: blue;
 }
-p.intro{
+
+p.intro {
     color: hotpink
-    }
-ol.Selectors{
+}
+
+ol.Selectors {
     color: blue;
     border: 2cm;
 }
-h3.Selectors{
+
+h3.Selectors {
     color: purple;
 }
-.Selectors{
+
+.Selectors {
     background-color: aqu;
 }
-.fonts{
-    font-family:cursive ;
+
+.fonts {
+    font-family: cursive;
     font-size: 20px;
     line-height: 1.3em;
     font-weight: bold;
     font-style: italic;
     /* color by hex value  */
-    color: #ff4532; 
+    color: #ff4532;
 }
-p.height{
+
+p.height {
     background-color: purple;
     height: auto;
     width: auto;
@@ -37,70 +43,83 @@ p.height{
     border-color: #ff4532;
     border-radius: 10px;
 }
-.width{
-   height: 500px;
-   width: 455px;
-   border: 2px solid red;
-   border-top: 5px solid blue;
-   border-radius: 15px;
+
+.width {
+    height: 500px;
+    width: 455px;
+    border: 2px solid red;
+    border-top: 5px solid blue;
+    border-radius: 15px;
 
 }
-.m{
-   background-color: blanchedalmond; 
-   border: 3px solid red;
-   padding: 19px;
-   margin: 34px;
-   box-sizing: border-box;
+
+.m {
+    background-color: blanchedalmond;
+    border: 3px solid red;
+    padding: 19px;
+    margin: 34px;
+    box-sizing: border-box;
 }
-.fruits{
+
+.fruits {
     border: 3px solid grey;
     margin: 12px 3px;
     padding: 12px 3px;
     background-color: rgb(201, 222, 201);
 }
-.tut21{
+
+.tut21 {
     width: 900px;
     border: 3px solid pink;
-    margin:auto;
+    margin: auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-#t21{
-float: left;
-width: 48.5%;
-text-align: justify;
+
+#t21 {
+    float: left;
+    width: 48.5%;
+    text-align: justify;
 }
-#t22{
+
+#t22 {
     float: left;
     width: 48.5%;
 }
-#t23{
-  width: 98%;
-  clear: both;
+
+#t23 {
+    width: 98%;
+    clear: both;
 }
-.tut22{
+
+.tut22 {
     border: 3px solid red;
     background-color: beige;
     padding: 14px;
     margin: 34px auto;
     width: 666px;
 }
-a{
+
+a {
     text-decoration: none;
     font-family: cursive;
     font-style: italic;
 }
-a:hover{
+
+a:hover {
     columns: red;
     background-color: rgb(217, 181, 181);
 }
-a:visited{
+
+a:visited {
     color: yellow;
 }
-a:active{
-    
+
+a:active {
+
     background-color: red;
 }
-.btn{
+
+.btn {
     background-color: aqua;
     padding: 6px;
     border: none;
@@ -108,78 +127,348 @@ a:active{
     font-size: 18px;
     border-radius: 4px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #17af30;
 }
-.navbar{
+
+.navbar {
     background-color: black;
     border-radius: 20px;
 }
-.navbar ul{
+
+.navbar ul {
     overflow: auto;
 }
-.navbar li{
+
+.navbar li {
     float: left;
     list-style: none;
     padding: 25px 75px;
     margin: auto;
 }
-.navbar li a{
+
+.navbar li a {
     text-decoration: none;
     font-style: normal;
-  
+
 }
-.navbar li a:hover{
-    color : rgb(63, 177, 120);
+
+.navbar li a:hover {
+    color: rgb(63, 177, 120);
     background-color: white;
 }
-.navbar li a:active{
+
+.navbar li a:active {
     background-color: #ff4532;
 }
-div.search{
+
+div.search {
     color: rgb(166, 42, 42);
     float: right;
     padding: 25px 75px;
 }
-.navbar input:hover{
+
+.navbar input:hover {
     background-color: black;
 
 }
-.navbar input{
+
+.navbar input {
     cursor: pointer;
-    
+
 }
-.top img{
+
+.top img {
     width: 100px;
     margin: auto;
     display: block;
 }
-.top h3{
-    font-family:monospace;
+
+.top h3 {
+    font-family: monospace;
     margin: 0px;
     text-align: center;
 }
-.top{
+
+.top {
     margin: auto;
     border: 5px solid red;
     width: 20%;
     box-sizing: border-box;
-    
+
 }
-.box{
+
+.box {
     border: 2px solid red;
     width: 150px;
     height: 150px;
     margin: 2px;
     display: inline-block;
 }
+
 /* position : static (default), absolute, relative, fixed, sticky */
-#box3{
+#box3 {
     position: sticky;
 }
-.tut24{
+
+.tut24 {
     border: 2px solid pink;
     background-color: khaki;
+}
+
+.boxes {
+    width: 170px;
+    height: 170px;
+    border: 2px solid black;
+}
+
+#boxes1 {
+    background-color: green;
+    position: relative;
+    top: 64px;
+    z-index: 2;
+}
+
+#boxes2 {
+
+    /* will hide the element and space  */
+    /* display: none; 
+    wil hide the element but show its empty space  */
+    /* /* visibility: hidden;  */
+    /* z-index: z-index will not work for position static ; */
+    z-index: 1;
+    background-color: red;
+    position: relative;
+    top: 14px;
+}
+
+#boxes3 {
+    background-color: blue;
+}
+
+#boxes4 {
+    background-color: yellow;
+}
+
+/* flex property for flex container  */
+.flex {
+    height: 344px;
+    width: 100%;
+    border: 2px solid blue;
+    display: flex;
+
+    /* properties for flex container 
+    flex-direction: row-reverse;
+    flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+    align-items: center;
+    /* align-items: flex-end; */
+}
+
+.y {
+    width: 200px;
+    height: 200px;
+    color: tomato;
+    background-color: black;
+    margin: 10px;
+    border: 2px solid aqua;
+    padding: 10px 10px;
+}
+
+/* flex property for flex items  */
+#flexes3 {
+    order: 2;
+    flex-grow: 1;
+}
+
+#flexes1 {
+    order: 1;
+    flex-basis: 300px; /* for length or height of object  */
+}
+html{
+    font-size: 25px;
+}
+.res{
+    font-size: 10px;
+    border: 2px solid red;
+    width: 400px;
+    height: 100vh;
+    width: 100vw;
+}
+.res h3{
+    font-size: 50px;
+}
+.res h2{
+    text-align: center;
+}
+/* #res1{
+    font-size: 10em;
+    padding: 2em;
+}
+#res2{
+    font-size: 3rem;
+    padding: 3rem;
+} */
+.media{
+    text-align: center;
+    font-size: 75px;
+    background-color: red;
+    color: white;
+    display: none;
+}
+@media only screen and (max-width: 300px){
+    #box-1{
+        display: block;
+        background-color: aqua;
+    }
+}
+@media only screen and (min-width:300px) and (max-width: 500px) {
+    #box-2{
+        display: block;
+        background-color: #17af30;
+    }
+}
+@media only screen and (min-width:500px) and (max-width: 800px) {
+    #box-3{
+        display: block;
+        background-color: purple;
+    }
+}
+@media (min-width:800px) {
+    #box-4{
+        display: block;
+        background-color: black;
+    }
+}
+ul {
+list-style-type: circle;
+color: black;
+}
+.c{
+    color: black;
+    display: block;
+    width: 293px;
+    margin: auto;
+}
+.c h3{
+    color: #ff4532;
+    border: 2px solid blue;
+    z-index: 1;
+}
+input[type='text']{
+    padding: 10px;
+    border: 2px solid red;
+}
+li:nth-child(3){
+    color: cyan;
+}
+li:nth-child(odd){
+    background-color: purple;
+}
+li:nth-child(even){
+    background-color: aquamarine;
+}
+.v{
+    display: flex;
+}
+.card{
+    padding:10px;
+    border: 2px solid red;
+    background-color: rgb(214, 231, 231);
+    /* x-axis y-axis blur radius spread radius and color  */
+    box-shadow: 10px 13px 15px green; 
+    margin: 23px 10px;
+}
+.card h2{
+    text-shadow: 3px 4px red;
+}
+.tain{
+    
+    --box-color: rgb(255, 247, 0);
+    display: flex;
+    background-color: var(--box-color);
+}
+.b{
+    /* making of variables  */
+    --box-color: rgb(255, 247, 0);
+    width: 250px;
+    height: 250px;
+    background-color: var(--box-color);
+    border: 2px solid black;
+    margin: 2px 10px;
+    box-shadow: 3px 3px var(--box-color);
+}
+.ox{
+    background-color: aliceblue;
+    padding: 10px 10px;
+    width: 250px;
+    height: 259px;
+    position: relative;
+    /* animation-name: shivam1; */
+    animation-name: shivam2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    /* Short hand to for animation  */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes shivam1{
+    from{
+    width:250px;
+    }
+    to{
+    width:800px;
+    }
+}
+@keyframes shivam2{
+    0%{
+        top:0px;
+        left: 0px;
+    }
+    25%{
+        top:250px;
+        left: 0px;
+    }
+    75%{
+        top:250px;
+        left: 250px;
+    }
+    100%{
+        top:0px;
+        left:250px;
+    }
+}
+.con{
+    background-color: antiquewhite;
+}
+.trans{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    background-color: #ff4532;
+    align-items: center;
+    transition: all;
+    transition-duration: 1s;
+}
+.tion{
+    background-color: black;
+}
+.trans:hover{
+    background-color: greenyellow;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    margin: 10px 10px;
+    padding: 23px 10px;
+    font-size: 30px;
 }

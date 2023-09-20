@@ -2,10 +2,20 @@ body {
     color: white;
     margin: 0px;
     padding: 0px;
-    background: url('../img/Image2.jpg');
-    background-repeat: no-repeat;  
-    background-size: cover;  
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header::before{
+    content: "";
+    background: url('../img/img3.jpg') no-repeat;
+    background-size: cover;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    
 }
 
 .left {
@@ -13,13 +23,14 @@ body {
     left: 70px;
     top: 24px;
     display: inline-block;
-    text-align: center;  
+    text-align: center;
 }
-.logo{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+.logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-    font-size: larger;   
-    
+    font-size: larger;
+
 }
 
 .mid {
@@ -28,36 +39,56 @@ body {
     margin: 61px auto;
     text-align: center;
 }
+
 .right {
-    position:absolute;
+    position: absolute;
     right: 56px;
     top: 77px;
     display: inline-block;
 }
+
 .navbar {
     display: inline-block;
 }
 .navbar li {
     display: inline-block;
+    transition: all;
     font-size: 25px;
 }
-.navbar li a{
-    color: rgb(190, 217, 226);
+
+.navbar li a {
+    color: rgb(255 240 120);
     text-decoration: none;
     padding: 34px 24px;
 }
-.navbar li a:hover, .navbar li a.active{
+
+.navbar li a:hover{
     text-decoration: overline;
     color: white;
+    transition: all;
+    transition-duration: 1s;
+    font-size: 30px;
 }
-.navbar li a:active{
-    color: rgb(186, 233, 244);
+.navbar li a.active{
+    text-decoration: overline;
+    color: white;
+    font-size: 30px;
 }
+/* navbar li:hover{
+    text-decoration: overline;
+    font-size: 30px;
+} */
+.navbar li a:active {
+    color:rgb(253, 248, 206);
+}
+
 .left img {
     width: 94px;
     filter: invert(100%);
+    opacity: 0.8;
 }
-.btn{
+
+.btn {
     margin: 0px 9px;
     color: white;
     background-color: black;
@@ -69,21 +100,28 @@ body {
     cursor: pointer;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: rgb(31, 30, 30);
 }
-.btn:active{
+
+.btn:active {
     background-color: rgb(64, 61, 61);
 }
-.container{
+
+.container {
     background-color: black;
     border: 2px solid white;
-    margin: 114px 116px;
-    padding: 42px 44px;
+    margin: 63px 120px;
+    padding: 32px 32px;
     width: 36%;
-    border-radius: 22px
+    border-radius: 22px;
+    opacity: 0.8;
+    transition: all;
 }
-.form-group input{
+
+
+.form-group input {
     text-align: center;
     display: inline-block;
     width: 500px;
@@ -94,44 +132,53 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
 }
-#mygender{
+
+#mygender {
     width: 20px;
     margin: 20px 20px;
     padding: 20px;
-    
+
 }
-.container h1{
+
+.container h1 {
     text-align: center;
 }
-.container button{
+
+.container button {
     display: block;
     width: 75%;
     margin: 10px 98px;
     border-color: aliceblue;
 }
-label{
+
+label {
     cursor: pointer;
 }
-#myname{
+
+#myname {
     margin: 10px 51px;
 }
-#myage{
+
+#myage {
     margin: 10px 65px;
 }
-#myphone{
+
+#myphone {
     margin: 10px 47px;
 }
-#myemail{
+
+#myemail {
     margin: 10px 47px;
 }
-#mycity{
+
+#mycity {
     margin: 10px 64px;
 }
-#myprovince{
+
+#myprovince {
     margin: 10px 31px;
 }
-#mypincode{
+
+#mypincode {
     margin: 10px 35px;
 }
-
-
